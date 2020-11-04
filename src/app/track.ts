@@ -1,7 +1,9 @@
+import { AlbumInterface } from './albumInterface';
+
 export class Track {
   trackTitle: string;
   trackArtist: string;
-  trackAlbum: string;
+  trackAlbum: AlbumInterface;
   trackGenre: string;
   trackDate: Date;
   trackLength: number;
